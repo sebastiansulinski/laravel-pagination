@@ -14,4 +14,4 @@ Custom pagination wrapper with Form Select and Zurb Foundation implementations.
 
 #### Select functionality
 
-For the select to work with the pagination - use (ssdSelectHref jQuery plugin)[https://github.com/sebastiansulinski/ssd-href-select]
+For the select to work with the pagination - use [ssdSelectHref jQuery plugin](https://github.com/sebastiansulinski/ssd-href-select)
