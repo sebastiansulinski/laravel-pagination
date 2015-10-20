@@ -1,0 +1,27 @@
+{
+    "name": "sebastiansulinski/laravel-pagination",
+    "description": "Custom pagination wrapper for Laravel 5 with form Select and Zurb Foundation implementations.",
+    "require": {
+        "illuminate/pagination": "5.1.20",
+        "illuminate/contracts": "5.1.*",
+        "illuminate/support": "5.1.*",
+        "php": ">=5.5.9"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sebastian Sulinski",
+            "email": "info@ssdtutorials.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpunit/phpunit": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SSD\\": "src",
+            "Test\\": "tests"
+        }
+    }
+}

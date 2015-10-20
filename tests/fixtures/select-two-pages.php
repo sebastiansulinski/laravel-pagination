@@ -1,0 +1,1 @@
+<form class="pagination-wrapper"><span class="disabled">&laquo;</span><span class="pagination-page">Page</span><select><option selected>1</option><option value="/?page=2">2</option></select><span class="pagination-of">of 2</span><a href="/?page=2">&raquo;</a></form>
