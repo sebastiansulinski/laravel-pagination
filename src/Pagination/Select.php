@@ -8,7 +8,7 @@ class Select extends Pagination
      *
      * @var string
      */
-    protected $wrapper = '<form class="pagination-wrapper">%s%s%s%s%s</form>';
+    protected $wrapper = '<form class="select-pagination">%s%s%s%s%s</form>';
 
     /**
      * Available link partial.
