@@ -1,6 +1,6 @@
 <?php namespace Test;
 
-use \PHPUnit_Framework_TestCase;
+use PHPUnit_Framework_TestCase;
 
 abstract class BaseCase extends PHPUnit_Framework_TestCase
 {
