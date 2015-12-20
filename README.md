@@ -12,11 +12,17 @@ Custom pagination wrapper with Form Select and Zurb Foundation implementations.
 
 ![Pagination on Smart Phone](/assets/images/smart-phone.jpg?raw=true "Pagination on Smart Phone")
 
-#### Select functionality
-
-For the select to work with the pagination - use [ssdSelectHref jQuery plugin](https://github.com/sebastiansulinski/ssd-href-select)
-
 ------
+
+## Select functionality
+
+For the select to work with the pagination - you can use [sebastiansulinski/ssd-select](https://www.npmjs.com/package/ssd-select) and bind its `go-to` action with our `select` element somewhere from within your JavaScript files:
+
+```
+$('.select-pagination select').ssdSelect({
+    action: 'go-to'
+});
+```
 
 ## Usage
 
