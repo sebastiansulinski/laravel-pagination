@@ -19,7 +19,7 @@ class FoundationTest extends BaseCase
             $this->empty_collection,
             count($this->empty_collection),
             1,
-            30
+            1
         );
         $foundation = new Foundation($collection);
 

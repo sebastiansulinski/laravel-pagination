@@ -8,13 +8,13 @@ class Foundation extends Pagination
      *
      * @var string
      */
-    protected $activeLinkPartial = '<li class="current"><a href="">%s</a></li>';
+    protected $activePageWrapper = '<li class="current"><a href="">%s</a></li>';
 
     /**
      * Disabled link partial.
      *
      * @var string
      */
-    protected $disabledLinkPartial = '<li class="unavailable"><a href="">%s</a></li>';
+    protected $disabledPageWrapper = '<li class="unavailable"><a href="">%s</a></li>';
 
 }

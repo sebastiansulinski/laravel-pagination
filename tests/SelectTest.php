@@ -18,7 +18,7 @@ class SelectTest extends BaseCase
             $this->empty_collection,
             count($this->empty_collection),
             1,
-            30
+            1
         );
         $select = new Select($collection);
 
@@ -79,13 +79,13 @@ class SelectTest extends BaseCase
      *
      * @test
      */
-    public function select_returns_pagination_with_three_pages()
+    public function select_returns_pagination_with_three_pages_active_page_2()
     {
         $collection = new LengthAwarePaginator(
             $this->collection,
             count($this->collection),
             ceil(count($this->collection) / 3),
-            1
+            2
         );
         $select = new Select($collection);
 
