@@ -8,6 +8,8 @@
 
 $medium-up: "only screen and (min-width: 40.0625em)" !default;
 
+$ssd-pagination-height: 2.4375rem;
+
 $ssd-pagination-link-bg: #008CBA;
 $ssd-pagination-link-color: #ffffff;
 
@@ -56,7 +58,7 @@ $ssd-pagination-label-color: #333333;
     background-color: $ssd-pagination-link-bg;
     color: $ssd-pagination-link-color;
 
-    line-height: 2.84rem;
+    line-height: $ssd-pagination-height;
     padding: 0 1.42rem;
 
   }
